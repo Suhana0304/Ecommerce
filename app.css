@@ -1,0 +1,84 @@
+/* General styling for the app */
+.app-container {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+  }
+  
+  /* Header styling */
+  .app-header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  .app-header h1 {
+    font-size: 36px;
+  }
+  
+  .app-header nav ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .app-header nav ul li {
+    display: inline;
+    margin-right: 20px;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  .app-header nav ul li:hover {
+    color: #ff6347;
+  }
+  
+  /* Styling for the product grid */
+  .product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 products per row */
+    gap: 20px; /* Adds space between images */
+    margin-top: 20px;
+  }
+  
+  /* Styling for the individual product cards */
+  .product-card {
+    background-color: white;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .product-card h2 {
+    font-size: 18px;
+    margin: 10px 0;
+  }
+  
+  .product-card p {
+    font-size: 16px;
+    color: #555;
+    margin-bottom: 10px;
+  }
+  
+  .add-to-cart-btn {
+    background-color: #FF6347;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .add-to-cart-btn:hover {
+    background-color: #e5533d;
+  }
+  
